@@ -1,0 +1,8 @@
+[package]
+name = "draw-rs"
+version = "0.1.0"
+authors = ["Pepijn Dragt <pepijn.dragt@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sdl2 = {version="0.32.1", features=["ttf","image","gfx","mixer"]}
